@@ -31,7 +31,11 @@
   overflow: auto;
 }
 .box2:hover{
-  color:aquamarine;
+  background-color: #162f81;
+}
+.box2>a{
+  color: white;
+  text-decoration: none;
 }
 .box3{
   height: 6vw;
@@ -63,7 +67,6 @@ ul{
 #menu li>a:hover{
   color: white;
   background-color: #162f81;
-  color:aquamarine;
 }
 #menu>li{
   position: absolute;
