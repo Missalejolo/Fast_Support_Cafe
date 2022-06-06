@@ -3,30 +3,77 @@
   margin-top: 2%;
   width: 85%;
   height: 90%;
+  height: 5.3vw;
+  overflow: auto;
 }
 .App-header {
   margin-bottom: 1%;
   background-color: #6cc5eb;
   display: grid;
-  grid-template-columns: 11% 7% 64%;
+  grid-template-columns: 11% 8% 8% 48%;
   color: white;
-  border-bottom: 2px solid rgb(34, 118, 214);
+  border-bottom: 0.5vw solid rgb(34, 118, 214);
+  height: 6vw;
+  overflow: auto;
 }
 .box2{
+  border: 0.1vw solid rgb(16, 77, 147);
+  border-radius: 3%;
+  margin-top: 1.2vw;
+  margin-bottom: 1.2vw;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: flex;
-  font-size: 2vw;
+  font-size: 1.3vw;
   justify-content: center;
   align-items: center;
   background-color: rgb(34, 118, 214);
+  height: 3.25vw;
+  overflow: auto;
 }
 .box2:hover{
   color:aquamarine;
 }
 .box3{
+  height: 6vw;
+  overflow: auto;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: flex;
   font-size: 3vw;
   justify-content: center;
   align-items: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  font-size: 1.2vw;
+  margin-top: 1.2vw;
+  margin-bottom: 1.2vw;
+  list-style: none;
+}
+#menu li>a{
+  background-color: rgb(34, 118, 214);
+  border: 0.1vw solid rgb(16, 77, 147);
+  border-radius: 3%;
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+#menu li>a:hover{
+  color: white;
+  background-color: #162f81;
+  color:aquamarine;
+}
+#menu>li{
+  position: absolute;
+  width: 11vw;
+  float: left;
+  text-align:center
+}
+#menu>li>ul{
+  display: none;
+}
+#menu>li:hover>ul {
+  display:contents;
 }
