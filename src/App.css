@@ -80,3 +80,39 @@ ul{
 #menu>li:hover>ul {
   display:contents;
 }
+.aboutus{
+  display: block;
+  text-align: center;
+  margin: 2% 20% 2% 20%;
+  font-size: 2vw;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.imagenes{
+  text-align: center;
+  display: grid;
+  margin: 3% 10% 3% 10%;
+  grid-template-columns: 50% 50%;
+}
+.alcancelogo{
+  height: 20vw;
+  opacity: 25%;
+}
+.misionlogo{
+  height: 20vw;
+  opacity: 25%;
+}
+.alcancetexto{
+  width: 30%;
+  display: block;
+  margin: 1% 15% 2% 5%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2vw;
+  position: absolute;
+}
+.misiontexto{
+  display: block;
+  margin: 1% 15% 2% 6%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2vw;
+  position: absolute;
+}
