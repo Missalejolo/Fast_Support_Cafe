@@ -21,8 +21,8 @@ function App() {
           <li><a>Ayudas de optimización</a> 
             <ul>
               <li><Link to="desfragmentaciondisco">Desfragmentación de disco</Link></li>
-              <li><a href="">Example</a></li>
-              <li><a href="">Example</a></li>
+              <li><a href="">Texto de Ejemplo</a></li>
+              <li><a href="">Texto de Ejemplo</a></li>
             </ul>  
           </li>
           </ul>
@@ -59,6 +59,21 @@ function App() {
           </div>
         </div>
       </body>
+      <footer className="footeraspects">
+      <div className="footer">
+      <div className="txtbox">
+      <label className="textboxtitle">Dejanos recomendaciones para mejorar!</label><p/>
+      <textarea className="textbox" rows="10" cols="40"></textarea>
+      </div>
+      <div className="footer2">
+      <label for="email">Ingresa tu email:</label><br/>
+      <input type="email" className="email"
+       pattern=".+@\.com" size="30" required></input><p/>
+       <input type="submit"></input>
+      </div>
+        
+      </div>
+      </footer>
     </div>
     </BrowserRouter>
 
