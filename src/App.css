@@ -152,7 +152,14 @@ top: 100%;
   border-right: 0.2vw solid #0e6272;
 }
 .email{
+  width: 17vw;
   border: 1.3px solid #0e6272;
   text-justify: auto;
   resize: none;
+}
+.enviar{
+  font-size: 0.9vw;
+  margin-top: 3%;
+  height: 1.5vw;
+  width: 6vw;
 }

@@ -69,7 +69,7 @@ function App() {
       <label for="email">Ingresa tu email:</label><br/>
       <input type="email" className="email"
        pattern=".+@\.com" size="30" required></input><p/>
-       <input type="submit"></input>
+       <input type="submit" className="enviar"></input>
       </div>
         
       </div>
