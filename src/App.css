@@ -119,7 +119,7 @@ ul{
 .footer{
   min-height: 100%;
   display: grid;
-  grid-template-columns: 33% 22% 27% 27%;
+  grid-template-columns: 33% 22% 22% 22%;
 }
 .footeraspects{
 background-color: #13AFCE;
@@ -162,4 +162,21 @@ top: 100%;
   margin-top: 3%;
   height: 1.5vw;
   width: 6vw;
+}
+.footer3{
+  text-align: center;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5vw;
+  margin: 2% 3% 2% 0%;
+  border-right: 0.2vw solid #0e6272;
+}
+.footer4{
+  font-size: 1.5vw;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+.chatbot {
+height: 7vw;
 }

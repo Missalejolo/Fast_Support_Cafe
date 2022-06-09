@@ -1,4 +1,5 @@
 import logo from './logofsc.svg';
+import chatbot from './fastsc-chatbot.svg'
 import alcance from './alcance.png';
 import mision from './mision.png';
 import './App.css';
@@ -71,7 +72,15 @@ function App() {
        pattern=".+@\.com" size="30" required></input><p/>
        <input type="submit" className="enviar"></input>
       </div>
-        
+       <div className="footer3">
+          O escribenos!<br/>
+          fastsc.sugerencias@gmail.com<br/><br/>
+          Quejas o reportes<br/>
+          fastsc.sugerencias@gmail.com
+      </div> 
+      <div className="footer4"><img src={chatbot} className="chatbot" alt="chatbot"/><p/>
+      Chatbot de ayuda<p/> y sugerencias
+      </div>
       </div>
       </footer>
     </div>
