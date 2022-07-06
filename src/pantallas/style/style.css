@@ -1,0 +1,30 @@
+.general{
+    margin-right: 1.5vw;
+    margin-top: 2vw;
+    margin-left: 1.5vw;
+    font-size: 1.3vw;
+}
+.pagenotfound{
+    font-size: 1.5vw;
+    display: block;
+    text-align: center;
+}
+.pnfimg{
+    margin-top: 2vw;
+    height: 35vw;
+}
+.ejemplodesfrag{
+    height: 20vw;
+}
+.scriptdiv{
+    text-align: center;
+}
+.scriptbutton{
+  color: white;
+  border: 1vw solid #13AFCE;
+  border-radius: 5%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  background-color: #13AFCE;
+}

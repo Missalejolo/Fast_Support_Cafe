@@ -11,7 +11,8 @@ import {
 } from "react-router-dom";
 import React from "react";
 import Home from './pantallas/Home';
-import Desfrag from './pantallas/Desfrag';
+import Desfrag from './pantallas/Desfrag'
+import PageNotFound from './pantallas/PageNotFound';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
             <ul id="menu">
               <li><a>Ayudas de optimización</a>
                 <ul>
-                  <li><Link to="/desfragmentacion">Desfragmentación de disco</Link></li>
+                  <li><Link to="/desfrag">Desfragmentación de disco</Link></li>
                   <li><a href="">Texto de Ejemplo</a></li>
                   <li><a href="">Texto de Ejemplo</a></li>
                 </ul>
@@ -33,14 +34,14 @@ function App() {
           </nav>
           <div class="box3">Fast Support Café</div>
         </header>
-        
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/desfragmentacion">
+          <Route path="/desfrag">
             <Desfrag />
           </Route>
+          <Route path="*" component={PageNotFound} />
         </Switch>
         <footer className="footeraspects">
           <div className="footer">
