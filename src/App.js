@@ -25,9 +25,9 @@ function App() {
             <ul id="menu">
               <li><a>Ayudas de optimización</a>
                 <ul>
-                  <li><Link to="/desfrag">Desfragmentación de disco</Link></li>
-                  <li><a href="">Texto de Ejemplo</a></li>
-                  <li><a href="">Texto de Ejemplo</a></li>
+                  <li><Link to="/desfragmentaciondisco">Desfragmentación de disco</Link></li>
+                  <li><Link to="/limpiezadearchivos">Limpieza de archivos temporales</Link></li>
+                  <li><Link to="/deshabilitarappsdeinicio">Deshabilitar inicio automático de apps</Link></li>
                 </ul>
               </li>
             </ul>
@@ -38,7 +38,7 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/desfrag">
+          <Route path="/desfragmentaciondisco">
             <Desfrag />
           </Route>
           <Route path="*" component={PageNotFound} />
