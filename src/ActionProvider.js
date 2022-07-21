@@ -42,5 +42,4 @@ class ActionProvider {
       this.setState(state => ({...state, messages: [...state.messages, message]}))
     }
 }
-
-export default ActionProvider;
+ export default ActionProvider;
