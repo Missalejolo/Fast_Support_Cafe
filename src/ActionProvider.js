@@ -13,6 +13,16 @@ class ActionProvider {
      this.stateRef = stateRef;
      this.createCustomMessage = createCustomMessage;
    }
- }
+
+
+      holaMundo = () => {
+        const message = this.createChatBotMessage("Saludos")
+        this.setChatbotMessage(message)
+      }
+      setChatbotMessage = (message) => {
+        this.setState(state => ({...state, messages: [...state.messages, message]}))
+      }
+      
+  }
  
  export default ActionProvider;
