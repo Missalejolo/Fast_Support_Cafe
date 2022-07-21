@@ -28,7 +28,6 @@
   align-items: center;
   background-color: #13AFCE;
 }
-
 .react-chatbot-kit-user-chat-message-container {
     display: flex;
     margin: 15px 0;
@@ -111,7 +110,7 @@
     font-size: 0.9rem;
     color: #fff;
     font-weight: medium;
-    position: relative;
+    position: static;
     width: 500px;
     margin-left: 0;
     text-align: left;
@@ -166,7 +165,7 @@
   }
   
   .react-chatbot-kit-chat-container {
-    position: relative;
+    position: static;
     width: 99vw;
   }
   
