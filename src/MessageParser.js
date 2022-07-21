@@ -16,6 +16,20 @@ class MessageParser {
       {
           this.actionProvider.holaMundo()
       }
+      if (lowercase.includes("desfragmentacion"&&"como"))
+      {
+          this.actionProvider.desfragmentacionTutorial()
+      }
+      
+      else if (lowercase.includes("desfragmentacion"))
+      {
+          this.actionProvider.desfragmentacionDefinicion()
+      }
+
+
+      else{
+          this.actionProvider.error()
+      }
     }
   }
   
