@@ -26,7 +26,7 @@ export default function Desfrag() {
         haciendo que poco a poco y con el paso del tiempo la velocidad de todo el ordenador
         pueda resentirse.<p /><br />
         <div className="scriptdiv">
-          <a href="https://download1489.mediafire.com/0x0flcvttcqg/avudy4c97baokty/limpieza_archivos_temporales.bat" target="_blank" className="scriptbutton">
+          <a href="https://download1346.mediafire.com/coes0yw9vptg/wladcq6xph9vfrq/limpieza_archivos_temporales.bat" target="_blank" className="scriptbutton">
             Descargar Script
           </a><br />
         </div>
