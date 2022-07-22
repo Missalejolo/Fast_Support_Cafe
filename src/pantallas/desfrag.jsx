@@ -1,6 +1,5 @@
 import React from "react";
 import ejemplodesfrag from "./style/ejemplo_desfrag.png"
-import { Link } from "react-router-dom";
 import "./style/style.css"
 
 export default function Desfrag() {

@@ -13,6 +13,7 @@ import React from "react";
 import Home from './pantallas/Home';
 import Desfrag from './pantallas/Desfrag'
 import PageNotFound from './pantallas/PageNotFound';
+import Chatbotpage from './pantallas/Chatbotpage';
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
           </Route>
           <Route path="/desfragmentaciondisco">
             <Desfrag />
+            </Route>
+          <Route path="/chatbotpage">
+            <Chatbotpage />
           </Route>
           <Route path="*" component={PageNotFound} />
         </Switch>
@@ -61,8 +65,9 @@ function App() {
               Quejas o reportes<br />
               fastsc.sugerencias@gmail.com
             </div>
-            <div className="footer4"><img src={chatbot} className="chatbot" alt="chatbot" /><p />
-              Chatbot de ayuda<p /> y sugerencias
+            <div className="footer4">
+            <Link to="/chatbotpage"><img src={chatbot} className="chatbot" alt="chatbot" /><p />
+              Chatbot de ayuda<p /> y sugerencias</Link>
             </div>
           </div>
         </footer>
