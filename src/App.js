@@ -11,9 +11,11 @@ import {
 } from "react-router-dom";
 import React from "react";
 import Home from './pantallas/Home';
-import Desfrag from './pantallas/desfrag'
+import Desfrag from './pantallas/Desfrag'
 import PageNotFound from './pantallas/PageNotFound';
 import Chatbotpage from './pantallas/Chatbotpage';
+import Limparch from './pantallas/Limpiezaarchivos';
+import Appsinic from './pantallas/Appsinicio';
 
 function App() {
   return (
@@ -41,6 +43,12 @@ function App() {
           </Route>
           <Route path="/desfragmentaciondisco">
             <Desfrag />
+            </Route>
+            <Route path="/limpiezadearchivos">
+            <Limparch />
+            </Route>
+            <Route path="/deshabilitarappsdeinicio">
+            <Appsinic />
             </Route>
           <Route path="/chatbotpage">
             <Chatbotpage />

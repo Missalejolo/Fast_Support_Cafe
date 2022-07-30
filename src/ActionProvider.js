@@ -16,7 +16,7 @@ class ActionProvider {
 
 
     holaMundo = () => {
-      const message = this.createChatBotMessage("Saludos")
+      const message = this.createChatBotMessage("Saludos.")
       this.setChatbotMessage(message)
     }
     
@@ -30,7 +30,7 @@ class ActionProvider {
     }
 
     temporalesTutorial = () => {
-      const message = this.createChatBotMessage("En el cuadro de búsqueda de la barra de tareas, escribe liberador de espacio en disco y selecciona Liberador de espacio en disco en la lista de resultados. Selecciona la unidad que quieres limpiar y, a continuación, Aceptar. En Archivos a eliminar, selecciona los tipos de archivo de los que desees deshacerte. Para obtener una descripción de algún tipo de archivo, selecciónalo. Selecciona Aceptar.")
+      const message = this.createChatBotMessage('Vamos a pulsar la tecla de Windows y a la vez la tecla R, se nos abrirá un recuadro en el cual buscaremos "%temp%" se nos abrirá una carpeta en la cual tendremos todos nuestros archivos temporales, los elegiremos todos y haremos clic derecho, luego de eso pulsaremos "Eliminar". Aquellos elementos que no se nos permita eliminar, los omitiremos.')
       this.setChatbotMessage(message)
     }
 
@@ -40,7 +40,7 @@ class ActionProvider {
     }
 
     inicioAppsTutorial = () => {
-      const message = this.createChatBotMessage("Apps inicio")
+      const message = this.createChatBotMessage('Pulse clic derecho en la barra de herramientas e ingrese a la opción "Administrador de tareas", pulsaremos "Más detalles" y nos iremos a la sección de "Inicio" ahí tendremos la opción de deshabilitar aquellas aplicaciones que inician en segundo plano para optimizar el arranque de nuestro equipo.')
       this.setChatbotMessage(message)
     }
 

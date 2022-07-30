@@ -20,9 +20,9 @@ class MessageParser {
     }
     
     
-    if (lowercase.includes("desfragmentacion"))
+    if (lowercase.includes("desfragmentaci"))
     {
-      if (lowercase.includes("desfragmentacion"&&"como"))
+      if (lowercase.includes("desfragmentaci"&&"como"))
       {
           this.actionProvider.desfragmentacionTutorial()
       }
