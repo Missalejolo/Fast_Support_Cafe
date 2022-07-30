@@ -1,3 +1,5 @@
+import { Switch } from "react-router";
+
 // MessageParser starter code
 class MessageParser {
   constructor(actionProvider, state) {
@@ -16,20 +18,49 @@ class MessageParser {
     {
         this.actionProvider.holaMundo()
     }
-    if (lowercase.includes("desfragmentacion"&&"como"))
+    
+    
+    if (lowercase.includes("desfragmentacion"))
     {
-        this.actionProvider.desfragmentacionTutorial()
+      if (lowercase.includes("desfragmentacion"&&"como"))
+      {
+          this.actionProvider.desfragmentacionTutorial()
+      }
+      else{
+        this.actionProvider.desfragmentacionDefinicion()
+      }
+        
+    }
+    else if (lowercase.includes("archivos")&&("temporales"))
+    {
+      if (lowercase.includes("como"))
+      {
+        this.actionProvider.temporalesTutorial()
+      }
+      else{
+        this.actionProvider.temporalesDefinicion()
+      }
+        
     }
     
-    else if (lowercase.includes("desfragmentacion"))
+    else if (lowercase.includes("inicio") &&("aplicaciones"))
     {
-        this.actionProvider.desfragmentacionDefinicion()
+      if (lowercase.includes("como"&&"deshabilitar"))
+      {
+        this.actionProvider.inicioAppsTutorial()
+      }
+      else{
+        this.actionProvider.inicioAppsDefinicion()
+      }
+        
     }
-
 
     else{
         this.actionProvider.error()
     }
+    
+
+    
   }
 }
 

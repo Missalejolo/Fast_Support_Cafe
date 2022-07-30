@@ -11,7 +11,7 @@ import {
 } from "react-router-dom";
 import React from "react";
 import Home from './pantallas/Home';
-import Desfrag from './pantallas/Desfrag'
+import Desfrag from './pantallas/desfrag'
 import PageNotFound from './pantallas/PageNotFound';
 import Chatbotpage from './pantallas/Chatbotpage';
 
