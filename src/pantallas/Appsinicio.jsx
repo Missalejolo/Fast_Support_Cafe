@@ -18,7 +18,7 @@ export default function Appsinic() {
         aplicaciones que inician en segundo plano para optimizar el arranque de 
         nuestro equipo.<p /><br />
         <div className="scriptdiv">
-          <a href="https://download1346.mediafire.com/coes0yw9vptg/wladcq6xph9vfrq/limpieza_archivos_temporales.bat" target="_blank" className="scriptbutton">
+          <a href="https://download1323.mediafire.com/dmdn8owkgarg/i54voepld0dao5s/admindearchivos.bat" target="_blank" className="scriptbutton">
             Descargar Script
           </a><br />
         </div>
