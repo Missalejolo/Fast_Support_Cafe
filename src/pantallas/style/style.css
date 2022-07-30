@@ -166,11 +166,11 @@
   
   .react-chatbot-kit-chat-container {
     position: static;
-    width: 99vw;
+    width: 98vw;
   }
   
   .react-chatbot-kit-chat-inner-container {
-    height: 38vw;
+    height: 33vw;
     background-color: #fff;
     border-radius: 3px;
     border-radius: 5px;
